@@ -5,6 +5,7 @@
 # ⚡ SoL-Pi: Scaling Auto-Research Loops for Efficient Agent Harnesses
 
 <p align="center">
+  <a href="#paper"><img src="https://img.shields.io/badge/arXiv-Coming%20soon-B31B1B?logo=arxiv&amp;logoColor=white" alt="arXiv: Coming soon" /></a>
   <a href="#getting-started"><img src="https://img.shields.io/badge/Getting%20Started-Install-76B900" alt="Getting Started" /></a>
   <a href="docs/configuration.md"><img src="https://img.shields.io/badge/Docs-Configuration-555555" alt="Configuration" /></a>
   <a href="https://nvlabs.github.io/SoL-Pi/"><img src="https://img.shields.io/badge/Blog-SoL--Pi-76B900" alt="SoL-Pi Blog" /></a>
@@ -49,6 +50,10 @@ The mechanisms share four rules:
 ## Technical Details and Core Insights
 
 Read the [SoL-Pi blog](https://nvlabs.github.io/SoL-Pi/) for a deeper look at the technical details, design rationale, and core insights behind SoL-Pi, including how auto-research led to the four efficiency mechanisms and how they work.
+
+## Paper
+
+The arXiv preprint is coming soon.
 
 ## Getting Started
 
