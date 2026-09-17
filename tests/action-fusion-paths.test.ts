@@ -78,8 +78,11 @@ describe("Action Fusion file URL paths", () => {
 	it("leaves a POSIX path alone off Windows", () => {
 		withPlatform("linux", () => {
 			expect(normalizeWindowsShellPath("/c/src/app.ts")).toBe("/c/src/app.ts");
-			expect(resolveToolPath("/work", "/c/src/app.ts")).toBe("/c/src/app.ts");
 		});
+	});
+
+	it.skipIf(process.platform === "win32")("resolves a POSIX path on a POSIX host", () => {
+		expect(resolveToolPath("/work", "/c/src/app.ts")).toBe("/c/src/app.ts");
 	});
 
 	it("expands a Windows home-relative path", () => {
